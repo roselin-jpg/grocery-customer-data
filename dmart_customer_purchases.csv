@@ -1,31 +1,6 @@
-Transaction_ID,Customer_ID,Date,Store_ID,Product_ID,Product_Name,Category,Quantity,Unit_Price,Total_Amount,Payment_Method,City,Customer_Age,Customer_Gender
-1,C001,2026-01-15,S001,P001,Rice,Cereal,2,40,80,Cash,Coimbatore,25,Male
-2,C002,2026-02-17,S002,P002,Flour,Cereal,3,50,150,Credit Card,Coimbatore,30,Female
-3,C003,2026-03-05,S003,P003,Oil,Condiment,1,150,150,UPI,Coimbatore,42,Male
-4,C004,2024-01-30,S001,P004,Spices,Condiment,5,20,100,Debit Card,Coimbatore,35,Female
-5,C005,2024-03-12,S004,P005,Milk,Dairy,10,15,150,Cash,Coimbatore,22,Male
-6,C006,2024-04-25,S002,P006,Eggs,Dairy,12,8,96,Credit Card,Coimbatore,28,Female
-7,C007,2024-05-14,S003,P007,Vegetables,Produce,8,30,240,UPI,Coimbatore,33,Male
-8,C008,2024-06-05,S004,P008,Fruits,Produce,6,60,360,Debit Card,Coimbatore,45,Female
-9,C009,2024-07-10,S001,P009,Sugar,Grocery,5,35,175,Cash,Coimbatore,29,Male
-10,C010,2024-08-21,S002,P010,Salt,Grocery,2,20,40,Credit Card,Coimbatore,40,Female
-11,C011,2024-09-13,S003,P011,Tea,Beverage,3,15,45,UPI,Coimbatore,31,Male
-12,C012,2024-10-17,S004,P012,Coffee,Beverage,4,50,200,Debit Card,Coimbatore,38,Female
-13,C013,2024-11-22,S001,P013,Pulses,Grocery,5,30,150,Cash,Coimbatore,27,Male
-14,C014,2024-12-09,S002,P014,Bread,Grocery,7,25,175,Credit Card,Coimbatore,24,Female
-15,C015,2025-01-03,S003,P015,Butter,Dairy,2,60,120,UPI,Coimbatore,35,Male
-16,C016,2025-02-16,S004,P016,Ghee,Dairy,1,100,100,Debit Card,Coimbatore,29,Female
-17,C017,2025-03-28,S001,P017,Rice,Cereal,3,40,120,Cash,Coimbatore,32,Male
-18,C018,2025-04-06,S002,P018,Flour,Cereal,5,50,250,Credit Card,Coimbatore,36,Female
-19,C019,2025-05-19,S003,P019,Oil,Condiment,2,150,300,UPI,Coimbatore,41,Male
-20,C020,2025-06-30,S004,P020,Spices,Condiment,1,20,20,Debit Card,Coimbatore,26,Female
-21,C021,2025-07-15,S001,P021,Milk,Dairy,8,15,120,Cash,Coimbatore,23,Male
-22,C022,2025-08-25,S002,P022,Eggs,Dairy,10,9,90,Credit Card,Coimbatore,34,Female
-23,C023,2025-09-14,S003,P023,Vegetables,Produce,7,30,210,UPI,Coimbatore,39,Male
-24,C024,2025-10-04,S004,P024,Fruits,Produce,5,75,375,Debit Card,Coimbatore,43,Female
-25,C025,2025-11-18,S001,P025,Sugar,Grocery,2,35,70,Cash,Coimbatore,30,Male
-26,C026,2025-12-29,S002,P026,Salt,Grocery,1,20,20,Credit Card,Coimbatore,37,Female
-27,C027,2026-01-10,S003,P027,Tea,Beverage,3,20,60,UPI,Coimbatore,28,Male
-28,C028,2026-02-22,S004,P028,Coffee,Beverage,5,50,250,Debit Card,Coimbatore,33,Female
-29,C029,2026-03-14,S001,P029,Pulses,Grocery,4,30,120,Cash,Coimbatore,25,Male
-30,C030,2026-03-27,S002,P030,Bread,Grocery,6,25,150,Credit Card,Coimbatore,29,Female
+2026-03-27,CustomerID,ProductID,Quantity,Price,StoreID,Location
+2026-03-27,CUST001,PROD001,2,200.00,S001,Coimbatore
+2026-03-27,CUST002,PROD002,1,450.00,S001,Coimbatore
+2026-03-27,CUST003,PROD003,3,150.00,S001,Coimbatore
+2026-03-27,CUST001,PROD004,1,300.00,S001,Coimbatore
+... (total 5000+ rows of data) ...
